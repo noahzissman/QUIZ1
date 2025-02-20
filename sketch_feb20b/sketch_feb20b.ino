@@ -10,7 +10,7 @@
  int lastRed = 0;
  int lastGreen = 0;
  int lastBlue = 0;
-
+ 
 
 void setColor(int red, int green, int blue){
   analogWrite(redPin, red);
@@ -26,6 +26,7 @@ void setup() {
   pinMode(buttonRed, INPUT_PULLUP);
   pinMode(buttonGreen, INPUT_PULLUP);
   pinMode(buttonBlue, INPUT_PULLUP);
+
 }
 
 void loop() {
@@ -48,7 +49,6 @@ if (digitalRead(4)==LOW) {
   analogWrite(10, 0);
   analogWrite(11, 255);
 }
-else (digitalRead)
 }
 
 
